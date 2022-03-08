@@ -1,5 +1,56 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* COMMON */
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;    
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: grey;
+    height: 70px;
+    text-align: center;
+}
+
+.menu {
+    line-height: 70px;
+}
+
+.menu .logo {
+    width: auto;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0 .5em;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+}
+
+.menu a.active {
+    border-bottom: 2px solid green;
+}
+
+/* MAIN */
+main {
+    margin-top: 80px;
 }
